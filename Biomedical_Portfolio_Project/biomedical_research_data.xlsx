@@ -1,0 +1,11 @@
+Raw_Data
+| Participant_ID | Age | Gender | Country    | Disease       | Research_Status | Study_Group |
+| -------------- | --- | ------ | ---------- | ------------- | --------------- | ----------- |
+| P001           | 45  | Male   | USA        | Diabetes      | Active          | Control     |
+| P002           | 38  | Female | UK         | Cancer        | Completed       | Treatment   |
+| P003           | 52  | Male   | Canada     | Heart Disease | Active          | Treatment   |
+| P004           | 29  | Female | India      | Diabetes      | Terminated      | Control     |
+| P005           | 61  | Male   | USA        | Cancer        | Completed       | Treatment   |
+| P006           | 34  | Female | Bangladesh | Heart Disease | Active          | Control     |
+| P007           | 47  | Male   | UK         | Diabetes      | Completed       | Treatment   |
+| P008           |     | Female | India      | Cancer        | Active          | Control     |
