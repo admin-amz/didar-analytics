@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-file_path = r"C:\Users\Ashulia It Solution\OneDrive\Documents\pythonApps\Biomedical_Portfolio_Project\biomedical_research_data.xlsx"
+file_path = r"pythonApps\Biomedical_Portfolio_Project\biomedical_research_data.xlsx"
 
 # 🔹 Load raw table-style data
 df = pd.read_csv(file_path, sep='|', skiprows=2, header=0).iloc[:, 1:-1]
@@ -70,3 +70,4 @@ with pd.ExcelWriter(output_file, engine="openpyxl") as writer:
 
 print("\n✅ Biomedical data processed successfully!")
 print("📁 Output file created:", output_file)
+
